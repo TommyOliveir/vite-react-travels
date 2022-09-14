@@ -1,0 +1,76 @@
+nav {
+  background: rgb(243, 107, 10);
+  padding: 1em;
+  text-align: center;
+  font-size: 25px;
+  color: #ffff;
+}
+.logo {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.logo span {
+  margin-left: 1em;
+}
+
+.img {
+  width: 135px;
+  Height: 200px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 5px;
+}
+
+.title {
+  font-weight: 700;
+  font-family: inherit;
+  font-size: 25px;
+}
+
+.date {
+  margin-top: 1em;
+
+}
+
+.location {
+  display: flex;
+  align-items: center;
+
+}
+
+.card {
+  display: flex;
+  margin: 1em auto;
+  padding-left: 1em;
+  /* background: red; */
+ max-width:  400px;
+  font-size: 12px;
+}
+
+.text {
+  margin-left: 1em;
+  width: 200px;
+}
+
+.description {
+  margin-top: .2em;
+  font-weight: 400;
+  line-height: 150%;
+ 
+}
+
+.location-name {
+  color: black;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.location, .location a {
+  color: rgb(243, 107, 10);
+  
+}
+
+.map {
+  margin-left: 1em;
+}
